@@ -1,6 +1,31 @@
 @import url(https://fonts.googleapis.com/css?family=Indie+Flower|Pacifico|Dancing+Script|Architects+Daughter|Orbitron:400,700,900|Bangers|Chewy|Gloria+Hallelujah|Kaushan+Script|Lobster+Two|Russo+One|Satisfy|Covered+By+Your+Grace|Roboto+Mono|Courgette|Fredoka+One|Permanent+Marker|Rock+Salt|Cookie|Special+Elite|Lobster|Damion|Black+Ops+One|VT323|Fredericka+the+Great|Ceviche+One|Fontdiner+Swanky|Finger+Paint|Monoton|Rochester|Grand+Hotel|Slackey);
 
+nav.main-nav {
+    background:#fff;
+    height:60px;
+    border-bottom:1pxsolid#dadada;
+    text-align: center;
+    border-radius: 9px;
+}
 
+nav.main-nav a {
+    font-family:'Lato',sans-serif;
+    font-size:20px;
+    text-decoration:none;
+    display:inline-block;
+    padding:15px19px;
+    color:#27ae60;
+}
+
+.menu {
+    display: inline;
+    margin:0 auto;
+}
+
+nav.main-nav.stickytop {
+    position:fixed;
+    top:0;
+}
 
 .sobaka{
 	position:fixed; top:772px; left:1600px;
@@ -15,48 +40,46 @@
 }
 
 .p1 {font-family: 'Finger Paint', cursive;
-	font-size: 20px;}
+font-size: 20px;}
 
 .pismo{
 	position:fixed; top:10px; left:1665px;
 	padding:0px;
 }
 
-#top_nav{margin: 0 auto;
-   top: 50px; /*высота шапки в пикселях*/
-   position: fixed;
-   z-index: 1000;
-   
-}
-.gallery { width:100%; margin:0; padding:0; table-layout:fixed; border-spacing:7px; }
- .gallery td { width:200px; height:140px; padding:5px; text-align:center;
-         background-color:#F0F0F0; border-radius:6px; border:1px solid #000000; }
- .gallery img { max-width:100%; max-height:100%; cursor:pointer; }
- .new_image { position:absolute; cursor:pointer; }
+.gallery { 
+    width:100%; margin:0; padding:0; table-layout:fixed; border-spacing:7px; }
+.gallery td { 
+    width:200px; height:140px; padding:5px; text-align:center;
+   background-color:#F0F0F0; border-radius:6px; border:1px solid #000000; }
+.gallery img { 
+    max-width:100%; max-height:100%; cursor:pointer; }
+.new_image { 
+    position:absolute; cursor:pointer; }
 
-.spoiler_desc {
+   .spoiler_desc {
     background: #333333;
     padding: 0px 5px;
     border-radius: 0px 0px 5px 5px;
- }
- .spoiler_desc>p {
+}
+.spoiler_desc>p {
     cursor: text;
     color: #FFFFFF;
     margin: 4px;
- }
- .spoiler_close {
+}
+.spoiler_close {
     display: none;
     position: absolute;
- }
- .spoiler_open {
+}
+.spoiler_open {
     display: block;
     margin: 5px 0px 0px 15px;
     outline: none;
     float: left;
     position: relative;
     overflow: hidden;
- }
- .spoiler_close, .spoiler_open {
+}
+.spoiler_close, .spoiler_open {
     height: 23px;
     width: 240px;
     top: 0px;
@@ -66,32 +89,47 @@
     text-indent: 10px;
     cursor: default;
     border-bottom: 1px dotted #000000;
- }
- .spoiler_close:hover, .spoiler_open:hover { background: #F5FF27; }
- .spoiler_open:focus {
+}
+.spoiler_close:hover, .spoiler_open:hover { 
+    background: #F5FF27; 
+}
+.spoiler_open:focus {
     overflow: visible;
     background: #333333;
     padding: 0px;
     border-radius: 7px 7px 5px 5px;
     border-bottom: none;
- }
- .spoiler_open:focus .spoiler_close { display: block; }
- .spoiler_open:focus:before { display: none; }
+}
+.spoiler_open:focus .spoiler_close { display: block; }
+.spoiler_open:focus:before { display: none; }
+
+html {
+  height: 100%;
+}
 
 body{
+    max-width: 100%;
 	background: url(1.1.1.1.1.jpg);
 	background-attachment: fixed;
+    margin: 0;
 }
-.container{
+.container {
 	width: 1140px;
 	margin: 0 auto;
 }
 
-header{
+header {
 	text-align: center;
 }
 
-.top{
+footer{
+    background: url(footer1.jpg);
+    width:100%;
+    height:150px;
+    margin: 0px;
+    border-radius: 9px 9px 0px 0px;
+}
+.top {
 	font-family: 'Finger Paint', cursive;
 	font-size: 35px;
 	text-align: center;
@@ -99,11 +137,16 @@ header{
 	width:1140px;
 	height: 150px;
 	margin:0 auto;
+    border-radius: 9px;
 }
-hr{
+
+hr {
 	border-color: deepskyblue;
 }
-.main_content{
+.main_content {
+    background: url(fondo_contacto.jpg);
+    
+    height: 700px;
 	width: 1140px;
 	margin: 0 auto;
 

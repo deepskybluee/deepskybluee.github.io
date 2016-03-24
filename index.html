@@ -4,20 +4,29 @@
 	<meta charset="UTF-8">
 	<title>Site</title>
 	<link rel="stylesheet" href="style.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 </style>
 </head>
 <body>
-<p>Email: <a href="mailto:wmwork099@mail.ru">wmwork099@mail.ru</a>
 	<img src="left.png" class=levo alt="">
 	<img src="right.png" class=pravo alt="">
 	<img src="sobaka.png" class=sobaka alt="">
 	<div class=pismo>
-		<a href=#><img src="JM7MHEsgNtY2.png" alt=""><p class="p1">Отправить нам письмо</a>
+		<a href="mailto:wmwork099@mail.ru"><img src="JM7MHEsgNtY2.png" alt=""><p class="p1">Отправить нам письмо</a>
 	</div>
 	<div class="container">
 		<header>
-			<img src="ImzS8pDTkE4.png" alt="">	
+
 		</header>
+		<nav class="main-nav">
+			<div class="menu">
+				<a href="#">Главная</a>
+				<a href="#">Онас</a>
+				<a href="#">Профиль</a>
+				<a href="#">Контакты</a>
+			</div>
+
+		</nav>
 		<table class="gallery">
 			<tr>
 				<td><img src="nebo1.png" alt=""></td>
@@ -54,9 +63,31 @@
 							как слова "Открыть/Закрыть", так и слова "Показать/Скрыть".</p>
 						</div>
 						<span tabindex="0" class="spoiler_close">Закрыть</span>
+
 					</div>
-					<img src="fondo_contacto.jpg" alt="">
+					<br>
+
+					<p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil laudantium, neque, unde incidunt perspiciatis aut fugiat iste explicabo nobis et non fugit repellat impedit, sunt alias velit amet at illum?
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic veniam eveniet laudantium consequuntur nisi eum in quasi corporis alias, aut delectus magni recusandae beatae veritatis quod optio sapiente ad velit.
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus a assumenda nam eveniet ea atque harum voluptatem totam provident voluptatibus dicta illo vel doloremque quis doloribus, consequatur et aspernatur asperiores.
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, eveniet, suscipit. Debitis delectus veniam, assumenda qui suscipit, ratione laboriosam placeat perferendis iure, dolore porro velit, aliquam natus. Hic, recusandae, voluptatem.</p>
+						<img src="" alt="">
+					</div>
 				</div>
-			</div>
-		</body>
-		</html>
+				<script type="text/javascript">
+					$(function(){
+						$(window).scroll(function() {
+							if($(this).scrollTop() >= 655) {
+								$('nav.main-nav').addClass('stickytop');
+							}
+							else{
+								$('nav.main-nav').removeClass('stickytop');
+							}
+						});
+					});
+				</script>
+				<footer>
+					
+				</footer>
+			</body>
+			</html>
