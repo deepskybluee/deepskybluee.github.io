@@ -1,5 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Indie+Flower|Pacifico|Dancing+Script|Architects+Daughter|Orbitron:400,700,900|Bangers|Chewy|Gloria+Hallelujah|Kaushan+Script|Lobster+Two|Russo+One|Satisfy|Covered+By+Your+Grace|Roboto+Mono|Courgette|Fredoka+One|Permanent+Marker|Rock+Salt|Cookie|Special+Elite|Lobster|Damion|Black+Ops+One|VT323|Fredericka+the+Great|Ceviche+One|Fontdiner+Swanky|Finger+Paint|Monoton|Rochester|Grand+Hotel|Slackey);
 
+.schetchik{
+    visibility: hidden;
+    position:absolute;top:150px;
+}
+
 nav a.active, nav a:hover {
 background:#ecf0f1;
 color:#27ae60;
@@ -43,7 +48,7 @@ nav.main-nav.stickytop {
 }
 
 .pravo{
-	position:absolute; top:340px; right:0px;
+	position:absolute; top:-40px; right:0px;
 }
 
 .levo.sticklev{
