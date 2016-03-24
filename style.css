@@ -136,8 +136,9 @@ header {
 }
 
 footer{
+    position:absolute; left:20%;
     background: url(footer1.jpg);
-    width:100%;
+    width:60%;
     height:150px;
     margin: 0px;
     border-radius: 9px 9px 0px 0px;
