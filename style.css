@@ -39,11 +39,11 @@ nav.main-nav.stickytop {
 }
 
 .levo{
-	position:absolute; top:490px; left:0px;
+	position:absolute; top:-30px; left:0px;
 }
 
 .pravo{
-	position:absolute; top:490px; right:0px;
+	position:absolute; top:-40px; right:0px;
 }
 
 .levo.sticklev{
@@ -58,7 +58,7 @@ nav.main-nav.stickytop {
 font-size: 20px;}
 
 .pismo{
-	position:fixed; top:10px; left:1665px;
+	position:fixed; top:700px; left:1600px;
 	padding:0px;
 }
 
