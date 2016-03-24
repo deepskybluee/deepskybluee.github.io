@@ -32,11 +32,19 @@ nav.main-nav.stickytop {
 }
 
 .levo{
-	position:absolute; top:1080px; left:0px;
+	position:absolute; top:490px; left:0px;
 }
 
 .pravo{
-	position:absolute; top:1080px; right:0px;
+	position:absolute; top:490px; right:0px;
+}
+
+.levo.sticklev{
+    position:absolute; top:430px; left:0px;
+}
+
+.pravo.stickprav{
+    position:absolute; top:430px; right:0px;
 }
 
 .p1 {font-family: 'Finger Paint', cursive;
@@ -113,6 +121,11 @@ body{
 	background-attachment: fixed;
     margin: 0;
 }
+
+body.stick{
+    margin-top: 60px;
+}
+
 .container {
 	width: 1140px;
 	margin: 0 auto;
@@ -142,10 +155,11 @@ footer{
 
 hr {
 	border-color: deepskyblue;
+    border-radius: 9px;
 }
 .main_content {
     background: url(fondo_contacto.jpg);
-    
+    border-radius: 9px;
     height: 700px;
 	width: 1140px;
 	margin: 0 auto;

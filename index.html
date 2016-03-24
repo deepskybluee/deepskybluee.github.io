@@ -71,7 +71,7 @@
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic veniam eveniet laudantium consequuntur nisi eum in quasi corporis alias, aut delectus magni recusandae beatae veritatis quod optio sapiente ad velit.
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus a assumenda nam eveniet ea atque harum voluptatem totam provident voluptatibus dicta illo vel doloremque quis doloribus, consequatur et aspernatur asperiores.
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, eveniet, suscipit. Debitis delectus veniam, assumenda qui suscipit, ratione laboriosam placeat perferendis iure, dolore porro velit, aliquam natus. Hic, recusandae, voluptatem.</p>
-						<img src="" alt="">
+						
 					</div>
 				</div>
 				<script type="text/javascript">
@@ -79,9 +79,13 @@
 						$(window).scroll(function() {
 							if($(this).scrollTop() >= 60) {
 								$('nav.main-nav').addClass('stickytop');
+								$('body').addClass('stick');
+							
 							}
 							else{
 								$('nav.main-nav').removeClass('stickytop');
+								$('body').removeClass('stick');
+							
 							}
 						});
 					});
