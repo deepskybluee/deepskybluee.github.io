@@ -1,5 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Indie+Flower|Pacifico|Dancing+Script|Architects+Daughter|Orbitron:400,700,900|Bangers|Chewy|Gloria+Hallelujah|Kaushan+Script|Lobster+Two|Russo+One|Satisfy|Covered+By+Your+Grace|Roboto+Mono|Courgette|Fredoka+One|Permanent+Marker|Rock+Salt|Cookie|Special+Elite|Lobster|Damion|Black+Ops+One|VT323|Fredericka+the+Great|Ceviche+One|Fontdiner+Swanky|Finger+Paint|Monoton|Rochester|Grand+Hotel|Slackey);
 
+nav a.active, nav a:hover {
+background:#ecf0f1;
+color:#27ae60;
+}
+
 nav.main-nav {
     background:#fff;
     height:60px;
@@ -11,9 +16,10 @@ nav.main-nav {
 nav.main-nav a {
     font-family:'Lato',sans-serif;
     font-size:20px;
+    height:30px;
     text-decoration:none;
     display:inline-block;
-    padding:15px19px;
+    padding:15px 19px;
     color:#27ae60;
 }
 
@@ -25,6 +31,7 @@ nav.main-nav a {
 nav.main-nav.stickytop {
     position:fixed;
     top:0;
+    width:59.95%;
 }
 
 .sobaka{
