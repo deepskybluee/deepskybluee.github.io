@@ -1,12 +1,16 @@
-@import url(https://fonts.googleapis.com/css?family=Indie+Flower|Pacifico|Dancing+Script|Architects+Daughter|Orbitron:400,700,900|Bangers|Chewy|Gloria+Hallelujah|Kaushan+Script|Lobster+Two|Russo+One|Satisfy|Covered+By+Your+Grace|Roboto+Mono|Courgette|Fredoka+One|Permanent+Marker|Rock+Salt|Cookie|Special+Elite|Lobster|Damion|Black+Ops+One|VT323|Fredericka+the+Great|Ceviche+One|Fontdiner+Swanky|Finger+Paint|Monoton|Rochester|Grand+Hotel|Slackey);
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower|Ubuntu:400,500|Lobster|Quicksand:700|Pacifico|Dancing+Script|Architects+Daughter|Orbitron:400,700,900|Bangers|Chewy|Gloria+Hallelujah|Kaushan+Script|Lobster+Two|Russo+One|Satisfy|Covered+By+Your+Grace|Roboto+Mono|Courgette|Fredoka+One|Permanent+Marker|Rock+Salt|Cookie|Special+Elite|Lobster|Damion|Black+Ops+One|VT323|Fredericka+the+Great|Ceviche+One|Fontdiner+Swanky|Finger+Paint|Monoton|Rochester|Grand+Hotel|Slackey);
+@font-face {
+    font-family: VeniceSerif;
+    src: url(VeniceSerif-Regular.otf);
+}
 
 .schetchik{
     z-index:2;
-    position:absolute; top:153.5%; right:21%;
+    position:absolute; top:12%; left: 90%;
 }
 
 nav a.active, nav a:hover {
-    background:#ecf0f1;
+    background: #d1d1d1;
     color:#27ae60;
 }
 
@@ -22,8 +26,8 @@ nav.main-nav {
 }
 
 nav.main-nav a {
-    font-family:'Lato',sans-serif;
-    font-size:20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size:25px;
     height:30px;
     text-decoration:none;
     display:inline-block;
@@ -39,7 +43,8 @@ nav.main-nav a {
 nav.main-nav.stickytop {
     position:fixed;
     top:0;
-    width:59.95%;
+    width:59.955%;
+    margin-top: 0px;
 }
 
 .sobaka{
@@ -53,6 +58,7 @@ nav.main-nav.stickytop {
 .pravo{
 	position:absolute; top:-40px; right:0px;
     }*/
+
     .levo.sticklev{
         position:absolute; top:430px; left:0px;
     }
@@ -61,83 +67,100 @@ nav.main-nav.stickytop {
         position:absolute; top:430px; right:0px;
     }
 
-    .p1 {font-family: 'Finger Paint', cursive;
-    font-size: 20px;}
+   /* .p1 {font-family: 'Ubuntu', sans-serif;
+         font-size: 20px;
+        
+         margin: 0;     
+}
 
-    .pismo{
-     position:fixed; top:700px; left:1600px;
+  .pismo{
+     position:fixed; top:715px; left:1600px;
      padding:0px;
- }
+     }*/
 
- .gallery { 
-    width:100%; margin:0; padding:0; table-layout:fixed; border-spacing:7px; margin-top: 10px; }
-    .gallery td { 
-        width:200px; height:140px; padding:5px; text-align:center;
-        background-color:#F0F0F0; border-radius:6px; border:1px solid #000000; }
-        .gallery img { 
-            max-width:100%; max-height:100%; cursor:pointer; }
-            .new_image { 
-                position:absolute; cursor:pointer; }
+     .gallery { 
+        width:100%; margin:0; padding:0; table-layout:fixed; border-spacing:7px; margin-top: 9px; }
+        .gallery td { 
+            width:200px; height:207px; padding:0px; text-align:center;
+            background-color:#F0F0F0; border-radius:6px; border:1px solid #000000; }
+            .gallery img { 
+                width:100%; height:100%; max-width:100%; max-height:100%;  cursor:pointer; margin-bottom: -4px;}
+                .new_image { 
+                    position:absolute; cursor:pointer; margin:0; }
 
-                html {
-                  height: 100%;
-              }
+                    html {
+                      height: 100%;
+                  }
 
-              body{
-                max-width: 100%;
-                background: url(bgrnd/11.png);
-                background-attachment: fixed;
-                margin: 0;
+                  body{
+                    max-width: 100%;
+                    max-height:100%;
+                    background: url(bgrnd/11.png);
+                    background-attachment: fixed;
+                    margin: 0;
+                }
+
+                body.stick{
+                    margin-top: 75px;
+                }
+
+                .container {
+                 width: 1140px;
+                 margin: 0 auto;
+             }
+
+             header {
+                 text-align: center;
+
+             }
+
+             footer{
+                position:absolute; left:20%;
+                background: url(bgrnd/15.png);
+                width:60%;
+                height:100%; max-height:16%;
+                margin-bottom: 0px;
+                border-radius: 9px 9px 0px 0px;
+                margin-top: 15px;
+                box-shadow: 0 0 10px rgba(0,0,0,0.5);
             }
-
-            body.stick{
-                margin-top: 60px;
-            }
-
-            .container {
-             width: 1140px;
-             margin: 0 auto;
-         }
-
-         header {
+            .top {
+             font-family: 'Finger Paint', cursive;
+             font-size: 35px;
              text-align: center;
-
+             background: url(bgrnd/15.png);
+             width:1140px;
+             height: 150px;
+             margin:0 auto;
+             border-radius: 0px 0px 9px 9px;
+             box-shadow: 0 0 10px rgba(0,0,0,0.5);
          }
 
-         footer{
-            position:absolute; left:20%;
-            background: url(bgrnd/15.png);
-            width:60%;
-            height:150px;
-            margin: 0px;
-            border-radius: 9px 9px 0px 0px;
-            margin-top: 15px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+         hr {
+            color: white;
+            border-color: white;
+
         }
-        .top {
-         font-family: 'Finger Paint', cursive;
-         font-size: 35px;
-         text-align: center;
-         background: url(bgrnd/15.png);
-         width:1140px;
-         height: 150px;
-         margin:0 auto;
-         border-radius: 0px 0px 9px 9px;
-         box-shadow: 0 0 10px rgba(0,0,0,0.5);
-     }
+        .main_content {
+            background: url(bgrnd/25-Amnesia.png);
+            border-radius: 9px;
+            height: 748px;
+            width: 1140px;
+            margin: 0 auto; margin-top: 12px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.5);
+        }
 
-     hr {
-        color: white;
-        border-color: white;
+        .soderzhanie {
+            position: relative; top:8px;
+            width:98.4%;
+            height:97.4%;
+            border:0.5px solid; 
+            border-radius: 9px;
+            margin:8px; 
+            border-color: gray;
+        }
 
-    }
-    .main_content {
-        background: url(bgrnd/25-Amnesia.png);
-        border-radius: 9px;
-        height: 700px;
-        width: 1140px;
-        margin: 0 auto;
-        box-shadow: 0 0 15px rgba(0,0,0,0.5);
-
-    }
-
+/*.a1{
+    text-decoration: none;
+    color:white;
+    }*/
