@@ -178,6 +178,16 @@ nav.main-nav.stickytop {
     max-height:30px;
 }
 
+@media screen and (max-width: 1600px) {
+ footer {  
+    position:absolute; left:14%; 
+}
+nav.main-nav.stickytop {
+    z-index: 999;
+    width:1140px;
+}
+}
+
     @media screen and (max-width: 1366px) {
      footer {  
         position:absolute; left:7.5%; 
@@ -188,15 +198,7 @@ nav.main-nav.stickytop {
     }
 }
 
-@media screen and (max-width: 1600px) {
- footer {  
-    position:absolute; left:14%; 
-}
-nav.main-nav.stickytop {
-    z-index: 999;
-    width:1140px;
-}
-}
+
 
 @media screen and (max-width: 1280px) {
  footer {  
