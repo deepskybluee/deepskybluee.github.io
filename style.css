@@ -4,6 +4,11 @@
     src: url(VeniceSerif-Regular.otf);
 }
 
+@font-face {
+    font-family: Octomorf;
+    src: url(OctomorfFF/octomorf.ttf);
+}
+
 .schetchik{visibility: hidden;
     z-index:2;
     position:absolute; top:12%; left: 90%;
