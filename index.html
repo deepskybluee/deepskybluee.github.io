@@ -9,6 +9,22 @@
 </style>
 </head>
 <body>
+	<script type="text/javascript" async>
+			$(function(){
+				$(window).scroll(function() {
+					if($(this).scrollTop() >= 165) {
+						$('nav.main-nav').addClass('stickytop');
+						$('body').addClass('stick');
+
+					}
+					else{
+						$('nav.main-nav').removeClass('stickytop');
+						$('body').removeClass('stick');
+
+					}
+				});
+			});
+		</script>
 	<header>
 		<div class="top">
 			<br>
@@ -57,22 +73,7 @@
 				
 			</div>
 		</div>
-		<script type="text/javascript">
-			$(function(){
-				$(window).scroll(function() {
-					if($(this).scrollTop() >= 165) {
-						$('nav.main-nav').addClass('stickytop');
-						$('body').addClass('stick');
-
-					}
-					else{
-						$('nav.main-nav').removeClass('stickytop');
-						$('body').removeClass('stick');
-
-					}
-				});
-			});
-		</script>
+	
 		<footer>
 			<div class="schetchik">
 				<script type="text/javascript" async>
