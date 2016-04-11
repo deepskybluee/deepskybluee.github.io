@@ -164,14 +164,8 @@ nav.main-nav a {
             box-shadow: 0 0 15px rgba(0,0,0,0.5);
         }
 
-        .soderzhanie {z-index:0;
-            position: relative; top:8px;
-            width:98.4%;
-            height:97.4%;
-            border:0.5px solid; 
-            border-radius: 9px;
-            margin:8px; 
-            border-color: gray;
+        .contacts{
+            position:relative; top:4%; left:4%;
         }
 
 /*.a1{
