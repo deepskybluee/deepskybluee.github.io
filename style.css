@@ -1,3 +1,5 @@
+
+
 @import url(https://fonts.googleapis.com/css?family=Indie+Flower|Ubuntu:400,500|Lobster|Quicksand:700|Pacifico|Dancing+Script|Architects+Daughter|Orbitron:400,700,900|Bangers|Chewy|Gloria+Hallelujah|Kaushan+Script|Lobster+Two|Russo+One|Satisfy|Covered+By+Your+Grace|Roboto+Mono|Courgette|Fredoka+One|Permanent+Marker|Rock+Salt|Cookie|Special+Elite|Lobster|Damion|Black+Ops+One|VT323|Fredericka+the+Great|Ceviche+One|Fontdiner+Swanky|Finger+Paint|Monoton|Rochester|Grand+Hotel|Slackey);
 @font-face {
     font-family: VeniceSerif;
@@ -22,13 +24,15 @@ nav a.active, nav a:hover {
 
 nav.main-nav {
     /*background:#fff;*/
-    background: url(bgrnd/25-Amnesia.png);
+    
+    background: #262626;
+    width:100%;
     height:60px;
-    border-bottom:1pxsolid#dadada;
+    border-bottom:1 pxsolid #dadada;
     text-align: center;
-    border-radius: 9px;
-    margin-top: 15px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    
+    
+    
 }
 
 nav.main-nav a {
@@ -38,19 +42,17 @@ nav.main-nav a {
     text-decoration:none;
     display:inline-block;
     padding:15px 19px;
-    color:#27ae60;
+    color:#38ae60;
 
 
 }
 
-/*nav.main-nav img{
-    width:5%;
-    float:right;
-    }*/
+
 
     .menu {
         display: inline;
         margin:0 auto;
+
     }
 
     nav.main-nav.stickytop {
@@ -59,19 +61,14 @@ nav.main-nav a {
         top:0;
         width:59.955%;
         margin-top: 0px;
+        width:100%;
     }
 
     .sobaka{
      position:fixed; top:772px; left:1600px;
  }
 
-/*.levo{
-	position:absolute; top:-30px; left:0px;
-}
 
-.pravo{
-	position:absolute; top:-40px; right:0px;
-    }*/
 
     .levo.sticklev{
         position:absolute; top:430px; left:0px;
@@ -81,17 +78,8 @@ nav.main-nav a {
         position:absolute; top:430px; right:0px;
     }
 
-   /* .p1 {font-family: 'Ubuntu', sans-serif;
-         font-size: 20px;
-        
-         margin: 0;     
-}
 
-  .pismo{
-     position:fixed; top:715px; left:1600px;
-     padding:0px;
-     }*/
-
+/*
      .gallery { 
         width:100%; margin:0; padding:0; table-layout:fixed; border-spacing:7px; margin-top: 9px; }
         .gallery td { 
@@ -100,22 +88,23 @@ nav.main-nav a {
             .gallery img { 
                 width:100%; height:100%; max-width:100%; max-height:100%;  cursor:pointer; margin-bottom: -4px;}
                 .new_image { 
-                    position:absolute; cursor:pointer; margin:0; }
+                    position:absolute; cursor:pointer; margin:0; } 
+                    */
 
                     html {
                       height: 100%;
                   }
 
                   body{
-                    max-width: 100%;
-                    max-height:100%;
-                    background: url(bgrnd/11.png);
+                    width: 100%;
+                    height:100%;
+                    background: url(bgrnd/welcome-bg2.png);
                     background-attachment: fixed;
                     margin: 0;
                 }
 
                 body.stick{
-                    margin-top: 75px;
+                    margin-top: 60px;
                 }
 
                 .container {
@@ -125,53 +114,35 @@ nav.main-nav a {
 
              header {
                  text-align: center;
-
+                 background: #262626;
+                 height: 160px;
+                 font-family: 'Finger Paint', cursive;
+                 font-size: 35px;
+                 text-align: center;
+                 width:100%;
+                 height: 130px;
+                 margin:0 auto;
              }
 
              footer{
-                position:absolute; left:20%;
-                background: url(bgrnd/15.1.png);
-                width:100%; max-width: 1140px;
-                height:140px;
-                margin-bottom: 0px;
-                border-radius: 9px 9px 0px 0px;
-                margin-top: 15px;
-                box-shadow: 0 0 15px rgba(0,0,0,0.5);
+               
+                background: #262626;
+                width:100%; 
+                height:120px;
+
+           
             }
-            .top {
-             font-family: 'Finger Paint', cursive;
-             font-size: 35px;
-             text-align: center;
-             background: url(bgrnd/15.png);
-             width:1140px;
-             height: 150px;
-             margin:0 auto;
-             border-radius: 0px 0px 9px 9px;
-             box-shadow: 0 0 10px rgba(0,0,0,0.5);
-         }
-
-         hr {
-            color: white;
-            border-color: white;
-
-        }
+      
         .main_content {
+            visibility: hidden;
             background: url(bgrnd/25-Amnesia.png);
-            border-radius: 9px;
-            height: 748px;
+            
+            height: 1100px;
             width: 1140px;
-            margin: 0 auto; margin-top: 12px;
-            box-shadow: 0 0 15px rgba(0,0,0,0.5);
+            margin: 0 auto;
+            
         }
 
-        .contacts{
-            position:relative; top:4%; left:4%;
-        }
-
-/*.a1{
-    text-decoration: none;
-    color:white;
-    }*/
 
 
     @media screen and (max-width: 1600px) {
@@ -295,7 +266,4 @@ nav.main-nav a{
     height:20px;
 }
 }
-
-
-
 
